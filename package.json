@@ -1,0 +1,29 @@
+{
+  "name": "reason-react-boilerplate",
+  "version": "0.1.0",
+  "scripts": {
+    "bsb:build": "bsb -make-world",
+    "bsb": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "start": "yarn clean && webpack-dev-server",
+    "build": "webpack --mode=production"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "reason-react": "^0.4.2"
+  },
+  "devDependencies": {
+    "bs-loader": "^2.0.5",
+    "bs-platform": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
