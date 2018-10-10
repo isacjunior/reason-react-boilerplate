@@ -1,5 +1,5 @@
 {
-  "name": "reason-react-boilerplate",
+  "name": "reason-react-hello-world",
   "version": "0.1.0",
   "scripts": {
     "bsb:build": "bsb -make-world",

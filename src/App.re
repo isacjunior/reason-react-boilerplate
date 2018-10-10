@@ -6,7 +6,7 @@ let make = (_) => {
   ...component,
   render: _ =>
     <Button className="class" onClick=sayHello>
-      {ReasonReact.string("Hello Reason React")}
+      {ReasonReact.string("Hello World")}
     </Button>,
 };
 
